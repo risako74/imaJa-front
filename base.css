@@ -141,6 +141,10 @@ a img{
 	text-decoration: none;
 }
 
+.categolly a:visited{
+	color:#000000;
+}
+
 /*写真ライブラリ*/
 .library{
 	margin-top: 150px;
@@ -165,13 +169,15 @@ a img{
   background: none repeat scroll 0 0 #FFFFFF;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.7);
   display: none;
-  padding: 30px;
-  width: 40%;
+  padding: 100px;
+  width: 90%;
  }
+
 
  #div787 img{
 	 display:block;
 	 margin:0 auto;
+	 width:80%;
  }
 
  #div787 p{
@@ -192,6 +198,19 @@ a img{
 	margin-top:10px;
 	text-align: center;
 }
+
+@media screen and (min-width: 641px) {
+ #div787{
+	 padding:30px;
+	 width:60%;
+ }
+
+ #div787 img{
+	 width:60%;
+ }
+}
+
+
 
 /*フッター*/
 footer{
